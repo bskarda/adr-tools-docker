@@ -15,3 +15,6 @@ COPY --from=0 /adr/adr-tools/src/. /usr/local/bin/
 
 # ADR tools needs bash
 RUN apk --no-cache add bash
+
+# TODO worth adding an entrypoint?
+# TODO autocomplete from outside the container?
